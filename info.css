@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 body {
-  font-family: monospace;
+  font-family: 'Rubik', monospace;
 }
 
 .box {
@@ -168,10 +170,6 @@ header span {
 #mini-title {
   text-decoration: none;
   color: #0645ad;
-}
-
-.parr {
-  font-size: 14px;
 }
 
 .parr p {
