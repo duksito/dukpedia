@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 body {
-  font-family: 'Rubik', monospace;
+  font-family: 'Inter', monospace;
+  font-weight: 450;
 }
 
 .box {
@@ -174,6 +175,7 @@ header span {
 
 .parr p {
   line-height: 1.5;
+  font-weight: 100 900;
 }
 
 #title-indice {
