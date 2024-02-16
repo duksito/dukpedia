@@ -1,0 +1,110 @@
+
+body {
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+main img {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 > a {
+  color: blue;
+}
+
+.inputs {
+  display: flex;
+  max-width: 100%;
+  width: 400px;
+  font-size: 18px;
+  border: 1px solid black;
+  outline: none;
+  padding: 3px;
+}
+
+.inputs::placeholder {
+  color: darkgrey;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+  width: 100%;
+}
+
+.selected {
+  background-color: #F1EBFE;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #F1EBFE;
+  font-weight: bold;
+}
+
+li a {
+  color: black;
+  width: 100%;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#list {
+  border: 1px solid black;
+  padding-left: 0;
+  max-width: 398px;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  margin-top: 29px;
+  background-color: white;
+  margin-right: 82px;
+  border-top: none;
+}
+
+#list li {
+  display: flex;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+p {
+  text-align: center;
+}
+

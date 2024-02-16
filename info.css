@@ -1,0 +1,198 @@
+body {
+  font-family: monospace;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+}
+
+.big {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+}
+
+.biggg {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.img {
+  border: 1px solid darkgrey;
+  padding: 5px;
+}
+
+.name {
+  margin-top: 5px;
+}
+
+.inputs {
+  display: flex;
+  max-width: 100%;
+  width: 400px;
+  font-size: 18px;
+  border: 1px solid black;
+  outline: none;
+  padding: 3px;
+}
+
+.inputs::placeholder {
+  color: darkgrey;
+}
+
+.hidden {
+  display: none;
+  width: 100%;
+}
+
+.selected {
+  background-color: #F1EBFE;
+  font-weight: bold;
+}
+
+#list li a:hover {
+  background-color: #F1EBFE;
+  font-weight: bold;
+}
+
+#list li a {
+  color: black;
+  width: 100%;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#list {
+  border: 1px solid black;
+  padding-left: 0;
+  max-width: 398px;
+  width: 90%;
+  margin: auto;
+  position: absolute;
+  margin-top: 35px;
+  background-color: white;
+  margin-left: 177px;
+  border-top: none;
+}
+
+#list li {
+  display: flex;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 29px;
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+header span {
+  font-size: 30px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#info-title {
+  font-size: 2rem;
+  font-family: none;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a{
+  padding: 5px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#second {
+  color: #3366cc;
+  font-weight: 300;
+}
+
+.indice {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid darkgrey;
+  max-width: 100%;
+  width: 400px;
+  padding: 7px;
+  height: 100%;
+}
+
+.indice ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#lista {
+  padding-left: 20;
+}
+
+#lista a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+#mini-title {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+.parr {
+  font-size: 14px;
+}
+
+.parr p {
+  line-height: 1.5;
+}
+
+#title-indice {
+  font-size: 20px;
+  text-align: center;
+}
+
+.h2 {
+  margin: 0.25em 0 0.25em 0;
+  text-decoration: none;
+  color: black;
+}
+
+.h3 {
+  margin: 0.25em 0 0.25em 0;
+  margin-top: 15px;
+  text-decoration: none;
+  color: black;
+}
+
