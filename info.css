@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
 
 body {
-  font-family: 'Inter', monospace;
-  font-weight: 450;
+  font-family: sans-serif, monospace;
+  font-size: 0.875rem;
 }
 
 .box {
@@ -35,14 +35,18 @@ body {
   margin-top: 5px;
 }
 
+.entrada {
+  display: flex;
+  width: 100%;
+}
+
 .inputs {
   display: flex;
-  max-width: 100%;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   font-size: 18px;
   border: 1px solid black;
   outline: none;
-  padding: 3px;
 }
 
 .inputs::placeholder {
@@ -51,6 +55,11 @@ body {
 
 .hidden {
   display: none;
+}
+
+.header{ 
+  display: flex;
+  gap: 50px;
   width: 100%;
 }
 
@@ -74,14 +83,15 @@ body {
 #list {
   border: 1px solid black;
   padding-left: 0;
-  max-width: 398px;
-  width: 90%;
   margin: auto;
   position: absolute;
-  margin-top: 35px;
   background-color: white;
-  margin-left: 177px;
+  margin-left: 167px;
   border-top: none;
+}
+
+.list-link {
+  display: flex;
 }
 
 #list li {
@@ -89,6 +99,10 @@ body {
   color: black;
   font-size: 15px;
   text-decoration: none;
+}
+
+.origin-title {
+  display: flex;
 }
 
 .title {
