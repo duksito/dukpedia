@@ -55,6 +55,7 @@ body {
 
 .hidden {
   display: none;
+  width: 100%;
 }
 
 .header{ 
@@ -80,25 +81,23 @@ body {
   text-decoration: none;
 }
 
-#list {
-  border: 1px solid black;
-  padding-left: 0;
-  margin: auto;
-  position: absolute;
-  background-color: white;
-  margin-left: 167px;
-  border-top: none;
-}
-
-.list-link {
-  display: flex;
-}
-
 #list li {
   display: flex;
   color: black;
   font-size: 15px;
   text-decoration: none;
+}
+
+#list {
+  border: 1px solid black;
+  padding-left: 0;
+  max-width: 398px;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  background-color: white;
+  border-top: none;
+  margin-left: 168px;
 }
 
 .origin-title {
