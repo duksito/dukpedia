@@ -21,15 +21,18 @@ a {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin-top: 150px;
+  max-width: 100%;
+  width: 900px;
+  margin: auto;
+  margin-top: 190px;
 }
 
 main img {
-  margin: auto;
   margin-bottom: 30px;
   width: 100%;
   max-width: 500px;
+  margin: auto;
 }
 
 h1 > a {
@@ -54,12 +57,11 @@ h1 > a {
 .box {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: auto;
 }
 
 .big {
   display: flex;
-  justify-content: center;
   gap: 10px;
 }
 
@@ -107,8 +109,8 @@ li a {
 
 .login {
   display: flex;
-  justify-content: center;
   gap: 10px;
+  margin: auto;
 }
 
 p {
