@@ -1,9 +1,6 @@
 
 body {
   font-family: monospace;
-  background: rgb(99,40,40);
-  background: radial-gradient(circle, rgba(99,40,40,1) 0%, rgba(13,2,2,1) 73%, rgba(0,0,0,1) 100%);
-  color: white;
   font-size: 15px;
 }
 
@@ -22,7 +19,6 @@ a {
 main {
   display: flex;
   flex-direction: column;
-  margin-top: 150px;
   max-width: 100%;
   width: 900px;
   margin: auto;
